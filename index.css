@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+  font-family: CursedTimerUlil-Aznm;
+  src: url(/CursedTimerUlil-Aznm.ttf);
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B244A;
+    height: 385px;
+}
+
+.game-board {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreboard-1, .scoreboard-2 {
+    height: 248px;
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+.black-brd {
+    font-family: CursedTimerUlil-Aznm;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    background-color: black;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multiplier {
+    display: flex;
+    justify-content: space-between;
+}
+
+.multiplier-blk {
+    font-family: CursedTimerUlil-Aznm;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #9AABD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #9AABD8;
+    background: none;
+}
+
+.new-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#new-game-btn {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+    height: 25px;
+    text-align: center;
+    background-color: lightgray;
+    color: red;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+
+}
